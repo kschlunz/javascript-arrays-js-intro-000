@@ -41,3 +41,8 @@ function destructivelyRemoveElementFromEndOfArray(array){
       array.pop(1)
       return array
 }
+
+function removeElementFromEndOfArray(array){
+      arrays= array.slice(0, array.length - 1)
+      return arrays
+}
